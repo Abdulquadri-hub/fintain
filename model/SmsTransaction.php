@@ -118,7 +118,7 @@ class SmsTransaction  {
 		   "redirect_url" => ""
 	    );  
 	    
-	    $redirectTo ="https://comeandsee.com.ng/kreativerock/admin/controllers/";
+	    $redirectTo ="https://comeandsee.com.ng/admin/controllers/";
 	
 	    $customer = array("email"=>$email,"name"=>$customername, "phonenumber"=>$phone);
 	    $postdata["tx_ref"] = $ref;

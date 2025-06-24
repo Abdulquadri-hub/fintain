@@ -1,6 +1,6 @@
 <?php
 
-$rootFolder = $rootFolder = $_SERVER['DOCUMENT_ROOT'] . "/kreativerock/";
+$rootFolder = $rootFolder = $_SERVER['DOCUMENT_ROOT'] . "/";
 require_once $rootFolder . 'utils/errorhandler.php';
 require_once $rootFolder . 'utils/response.php';
 require_once $rootFolder . 'model/dbclass.php';

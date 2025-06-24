@@ -287,8 +287,8 @@ class User{
             $emailEncoded = base64_encode($email);
             $tokenEncoded = base64_encode($resetToken);
             
-            $local = "http://localhost/kreativerock/admin/controllers/resetpassword.php?email=$emailEncoded&token=$tokenEncoded";
-            $live = "https://comeandsee.com.ng/kreativerock/admin/controllers/resetpassword.php?email=$emailEncoded&token=$tokenEncoded";
+            $local = "http://localhost/admin/controllers/resetpassword.php?email=$emailEncoded&token=$tokenEncoded";
+            $live = "https://comeandsee.com.ng/admin/controllers/resetpassword.php?email=$emailEncoded&token=$tokenEncoded";
             
             $link = $local; // Change to $live in production
             $tmessage = "</b> Click the link below to reset your password: <br /><br /> <span style='padding:7px;background-color:#1E90FF;    color:white;'><a href='" . $link . "' style='text-decoration:none;color:white;'>Reset Password</a></span>";
@@ -597,8 +597,8 @@ class User{
         $emailencoded = base64_encode($email);
         $vercode = base64_encode($verificationcode);
 
-        $local = "http://localhost/kreativerock/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
-        $live = "https://comeandsee.com.ng/kreativerock/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
+        $local = "http://localhost/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
+        $live = "https://comeandsee.com.ng/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
         
         $link = $live; // Change to $local for local testing
         $tmessage = "</b> Click the link below to verify your account: <br /><br /> <span style='padding:7px;background-color:#1E90FF;color:white;'><a href='" . $link . "' style='text-decoration:none;color:white;'>Click this link</a></span>";
@@ -705,8 +705,8 @@ class User{
         $emailencoded = base64_encode($email);
         $vercode = base64_encode($verificationCode);
 
-        $local = "http://localhost/kreativerock/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
-        $live = "https://comeandsee.com.ng/kreativerock/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
+        $local = "http://localhost/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
+        $live = "https://comeandsee.com.ng/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
         
         $verificationLink = $live; // Change to $local for local testing
         

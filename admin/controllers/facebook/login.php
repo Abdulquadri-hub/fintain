@@ -13,6 +13,6 @@ unset($_SESSION['FBRLH_state']);
    
 $facebook = new Facebook();
 
-$redirectUrl = "https://comeandsee.com.ng/kreativerock/admin/controllers/facebook/callback";
+$redirectUrl = "https://comeandsee.com.ng/admin/controllers/facebook/callback";
 $loginUrl = $facebook->getLoginUrl($redirectUrl);
 echo json_encode(['url' => $loginUrl]);

@@ -15,7 +15,7 @@ public function getWelcomeEmailTemplate($userName, $dashboardLink, $profileLink)
         <!-- Header -->
         <tr>
             <td style="padding: 40px 30px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-radius: 16px 16px 0 0; text-align: center;">
-                <img src="https://comeandsee.com.ng/kreativerock/assets/images/logo.svg" alt="KreativeRock Logo" style="height: 48px; margin-bottom: 25px;">
+                <img src="https://comeandsee.com.ng/assets/images/logo.svg" alt="KreativeRock Logo" style="height: 48px; margin-bottom: 25px;">
                 <h1 style="margin: 0; color: #ffffff; font-size: 32px; font-weight: 700; letter-spacing: -0.5px;">
                     Welcome to KreativeRock! 
                 </h1>
@@ -112,7 +112,7 @@ public  function getVerificationEmailTemplate($userName, $verificationCode, $ver
             <!-- Header -->
         <tr>
             <td style="padding: 40px 30px; background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%); border-radius: 16px 16px 0 0; text-align: center;">
-                <img src="https://comeandsee.com.ng/kreativerock/assets/images/logo.svg" alt="KreativeRock Logo" style="height: 48px; margin-bottom: 25px;">
+                <img src="https://comeandsee.com.ng/assets/images/logo.svg" alt="KreativeRock Logo" style="height: 48px; margin-bottom: 25px;">
                 <h1 style="margin: 0; color: #ffffff; font-size: 32px; font-weight: 700; letter-spacing: -0.5px;">
                     Verify Your Email
                 </h1>

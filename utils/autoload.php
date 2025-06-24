@@ -1,6 +1,6 @@
 <?php
 
-$rootFolder = $_SERVER['DOCUMENT_ROOT'] . "/kreativerock/";
+$rootFolder = $_SERVER['DOCUMENT_ROOT'] . "/";
 
 date_default_timezone_set('Africa/Lagos');
 

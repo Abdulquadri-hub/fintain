@@ -907,7 +907,7 @@ class GupshupAPI {
             $subscriptionData = [
                 'modes' => "SENT,DELIVERED,READ,FAILED,OTHERS,PAYMENTS,MESSAGE,BILLING,FLOWS_MESSAGE,TEMPLATE,ACCOUNT,ENQUEUED",
                 'tag' => "kreativerock_users_whatsapp_events",
-                'url' => "https://comeandsee.com.ng/kreativerock/admin/controllers/whatsapp/webhook?user_id={$userId}&app_id={$appId}",
+                'url' => "https://comeandsee.com.ng/admin/controllers/whatsapp/webhook?user_id={$userId}&app_id={$appId}",
                 'version' => 2
             ];
 

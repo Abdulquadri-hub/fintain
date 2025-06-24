@@ -26,7 +26,7 @@ class Campaign {
             return ['status' => false, 'message' => 'User not found'];
         }
 
-        $baseUrl = "https://comeandsee.com.ng/kreativerock/api/v1";
+        $baseUrl = "https://comeandsee.com.ng/api/v1";
 
         return [
             "status" => true,

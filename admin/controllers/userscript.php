@@ -61,7 +61,7 @@ if(isset($_POST["photofilename"]) && $_POST["photofilename"] !== null && $_POST[
             $res = $user->getUserInfo("email = '" . $email . "'");
             
             $rootFolder = $_SERVER['DOCUMENT_ROOT'];
-            $target = $rootFolder ."/kreativerock/images/kyc/";
+            $target = $rootFolder ."/images/kyc/";
             
             if($res){
                 $oldImageUrl = $res["imageurl"];

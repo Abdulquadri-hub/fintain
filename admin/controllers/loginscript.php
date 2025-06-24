@@ -1,4 +1,6 @@
 <?php
+// error_reporting(E_ALL);
+// ini_set('display_errors', 1);
 
 session_start();
 
@@ -8,7 +10,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/utils/autoload.php";
 
 $user = new User();
 
-$email = filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) ? $_POST["email"] : "BAD";
+$email = isset($_POST["email"]) && filter_var($_POST["email"], FILTER_VALIDATE_EMAIL) ? $_POST["email"] : "BAD";
+
 if($email === "BAD"){
     $user->addUserActivity($email, "IP: " . $_POST["ip"] . " | Failed attemp to create user with bad email at " . date("Y-m-d H:i:s"), date("Y-m-d H:i:s"), "CREATE USER");
     exit(badRequest(204, "Bad email"));

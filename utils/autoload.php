@@ -1,5 +1,9 @@
 <?php
-
+// private $host = 'localhost';
+// private $dbname = "fintaintech_fintaindb";
+// private $dbuser = "fintaintech_fintainTechAdmin";
+// private $dbpass = "100FoldsReturn!@";
+    
 $rootFolder = $_SERVER['DOCUMENT_ROOT'] . "/";
 
 date_default_timezone_set('Africa/Lagos');

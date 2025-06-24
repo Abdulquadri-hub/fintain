@@ -4,7 +4,7 @@ session_start();
 
 header('Content-Type: application/json');
 
-require_once $_SERVER['DOCUMENT_ROOT'] . "/kreativerock/utils/autoload.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/utils/autoload.php";
 
 $user = new User();
 $smslog = new SMSLog();

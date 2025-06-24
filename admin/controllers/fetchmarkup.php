@@ -4,7 +4,7 @@ session_start();
 
 header('Content-Type: application/json');
 
-require_once $_SERVER['DOCUMENT_ROOT'] . "/kreativerock/utils/autoload.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/utils/autoload.php";
 
 $framework = new FrameWork();
 $results = $framework->executeByQuerySelector("SELECT * FROM markup");

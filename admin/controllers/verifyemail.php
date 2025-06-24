@@ -4,7 +4,7 @@ session_start();
 
 header('Content-Type: application/json');
 
-require_once $_SERVER['DOCUMENT_ROOT'] . "/kreativerock/utils/autoload.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/utils/autoload.php";
 
 
 if(isset($_SESSION["user_id"]) && $_SESSION["user_id"] === null || $_SESSION["user_id"] === ""){

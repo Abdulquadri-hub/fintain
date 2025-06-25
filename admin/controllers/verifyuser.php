@@ -58,9 +58,9 @@ function logoff(){
     session_unset();
     session_destroy();
     
-    header('Location: ../../newadmin/view/login');       
+    header('Location: ../../admin/view/login');       
 }
 
 function redirect(){
-    header('Location: ../../newadmin/view/login');       
+    header('Location: ../../admin/view/login');       
 }

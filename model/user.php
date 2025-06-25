@@ -598,7 +598,7 @@ class User{
         $vercode = base64_encode($verificationcode);
 
         $local = "http://localhost/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
-        $live = "https://comeandsee.com.ng/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
+        $live = "https://fintaintech.com/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
         
         $link = $live; // Change to $local for local testing
         $tmessage = "</b> Click the link below to verify your account: <br /><br /> <span style='padding:7px;background-color:#1E90FF;color:white;'><a href='" . $link . "' style='text-decoration:none;color:white;'>Click this link</a></span>";
@@ -618,7 +618,7 @@ class User{
         $curl = curl_init();
         
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://comeandsee.com.ng/mailer/sendmailtokreativerock.php",
+            CURLOPT_URL => "https://fintaintech.com/mailer/sendmailtofintaintech.php",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -682,7 +682,7 @@ class User{
         $curl = curl_init();
         
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://comeandsee.com.ng/mailer/sendmailtokreativerock.php",
+            CURLOPT_URL => "https://fintaintech.com/mailer/sendmailtofintaintech.php",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -706,7 +706,7 @@ class User{
         $vercode = base64_encode($verificationCode);
 
         $local = "http://localhost/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
-        $live = "https://comeandsee.com.ng/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
+        $live = "https://fintaintech.com/admin/controllers/verifyuser.php?email=$emailencoded&vercode=$vercode";
         
         $verificationLink = $live; // Change to $local for local testing
         
@@ -724,7 +724,7 @@ class User{
         $curl = curl_init();
         
         curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://comeandsee.com.ng/mailer/sendmailtokreativerock.php",
+            CURLOPT_URL => "https://fintaintech.com/mailer/sendmailtofintaintech.php",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,

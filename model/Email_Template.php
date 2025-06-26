@@ -15,9 +15,9 @@ public function getWelcomeEmailTemplate($userName, $dashboardLink, $profileLink)
         <!-- Header -->
         <tr>
             <td style="padding: 40px 30px; background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-radius: 16px 16px 0 0; text-align: center;">
-                <img src="https://comeandsee.com.ng/assets/images/logo.svg" alt="fintaintech Logo" style="height: 48px; margin-bottom: 25px;">
+                <img src="https://fintaintech.com/assets/images/logo.svg" alt="fintain Logo" style="height: 48px; margin-bottom: 25px;">
                 <h1 style="margin: 0; color: #ffffff; font-size: 32px; font-weight: 700; letter-spacing: -0.5px;">
-                    Welcome to fintaintech! 
+                    Welcome to fintain! 
                 </h1>
                 <p style="color: #d1fae5; margin: 15px 0 0; font-size: 18px; font-weight: 500;">Your account is now active</p>
             </td>
@@ -33,7 +33,7 @@ public function getWelcomeEmailTemplate($userName, $dashboardLink, $profileLink)
                 </div>
 
                 <p style="color: #374151; font-size: 16px; line-height: 1.7; margin-bottom: 30px;">
-                    Congratulations! Your email has been successfully verified and your account is now active. You\'re all set to explore everything fintaintech has to offer.
+                    Congratulations! Your email has been successfully verified and your account is now active. You\'re all set to explore everything fintain has to offer.
                 </p>
 
                 <!-- Quick Start Guide -->
@@ -76,7 +76,7 @@ public function getWelcomeEmailTemplate($userName, $dashboardLink, $profileLink)
                 <div style="text-align: center;">
                     <p style="margin: 0 0 15px; color: #64748b; font-size: 14px;">
                         Questions? We\'re here to help!<br>
-                        <a href="mailto:support@fintaintech.com" style="color: #4f46e5; text-decoration: none; font-weight: 600;">support@fintaintech.com</a> | 
+                        <a href="mailto:support@fintain.com" style="color: #4f46e5; text-decoration: none; font-weight: 600;">support@fintain.com</a> | 
                         <a href="tel:+1234567890" style="color: #4f46e5; text-decoration: none; font-weight: 600;">+123 456 7890</a>
                     </p>
                     <div style="margin: 20px 0;">
@@ -86,8 +86,8 @@ public function getWelcomeEmailTemplate($userName, $dashboardLink, $profileLink)
                     </div>
                     <div style="border-top: 1px solid #e8e9ff; padding-top: 20px; margin-top: 20px;">
                         <p style="margin: 0; color: #94a3b8; font-size: 12px; line-height: 1.6;">
-                            Thank you for choosing fintaintech!<br>
-                            © 2024 fintaintech. All rights reserved.
+                            Thank you for choosing fintain!<br>
+                            © 2024 fintain. All rights reserved.
                         </p>
                     </div>
                 </div>
@@ -112,7 +112,7 @@ public  function getVerificationEmailTemplate($userName, $verificationCode, $ver
             <!-- Header -->
         <tr>
             <td style="padding: 40px 30px; background: linear-gradient(135deg, #4f46e5 0%, #3730a3 100%); border-radius: 16px 16px 0 0; text-align: center;">
-                <img src="https://fintaintech.com/assets/images/logo.svg" alt="fintaintech Logo" style="height: 48px; margin-bottom: 25px;">
+                <img src="https://fintaintech.com/assets/images/logo.svg" alt="fintain Logo" style="height: 48px; margin-bottom: 25px;">
                 <h1 style="margin: 0; color: #ffffff; font-size: 32px; font-weight: 700; letter-spacing: -0.5px;">
                     Verify Your Email
                 </h1>
@@ -125,7 +125,7 @@ public  function getVerificationEmailTemplate($userName, $verificationCode, $ver
             <td style="padding: 40px 30px;">
                 <div style="border-left: 4px solid #10b981; padding-left: 20px; margin-bottom: 35px;">
                     <p style="margin: 0; color: #64748b; font-size: 18px; line-height: 1.6;">
-                        Welcome to <strong style="color: #4f46e5;">fintaintech</strong>! We\'re excited to have you on board.
+                        Welcome to <strong style="color: #4f46e5;">fintaint</strong>! We\'re excited to have you on board.
                     </p>
                 </div>
 
@@ -162,12 +162,12 @@ public  function getVerificationEmailTemplate($userName, $verificationCode, $ver
                 <div style="text-align: center;">
                     <p style="margin: 0 0 15px; color: #64748b; font-size: 14px;">
                         Need help? Contact our support team<br>
-                        <a href="mailto:support@fintaintech.com" style="color: #4f46e5; text-decoration: none; font-weight: 600;">support@fintaintech.com</a>
+                        <a href="mailto:support@fintain.com" style="color: #4f46e5; text-decoration: none; font-weight: 600;">support@fintain.com</a>
                     </p>
                     <div style="border-top: 1px solid #e8e9ff; padding-top: 20px; margin-top: 20px;">
                         <p style="margin: 0; color: #94a3b8; font-size: 12px; line-height: 1.6;">
                             This is an automated message - please do not reply directly to this email.<br>
-                            © 2024 fintaintech. All rights reserved.
+                            © 2024 fintain. All rights reserved.
                         </p>
                     </div>
                 </div>

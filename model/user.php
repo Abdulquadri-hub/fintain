@@ -610,7 +610,7 @@ class User{
         $payload = array(
             "email" => $email,
             "message" => $message,
-            "subject" => "FintainTech Email Verification"
+            "subject" => "Fintain Email Verification"
         );
             
         $payload = json_encode($payload);
@@ -674,7 +674,7 @@ class User{
         $payload = array(
             "email" => $email,
             "message" => $htmlMessage,
-            "subject" => "Welcome to FintainTech - Your Account is Active!"
+            "subject" => "Welcome to Fintain - Your Account is Active!"
         );
             
         $payload = json_encode($payload);
@@ -716,7 +716,7 @@ class User{
         $payload = array(
             "email" => $email,
             "message" => $htmlMessage,
-            "subject" => "FintainTech - Verify Your Email Address"
+            "subject" => "Fintain - Verify Your Email Address"
         );
             
         $payload = json_encode($payload);

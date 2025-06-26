@@ -125,7 +125,7 @@ public  function getVerificationEmailTemplate($userName, $verificationCode, $ver
             <td style="padding: 40px 30px;">
                 <div style="border-left: 4px solid #10b981; padding-left: 20px; margin-bottom: 35px;">
                     <p style="margin: 0; color: #64748b; font-size: 18px; line-height: 1.6;">
-                        Welcome to <strong style="color: #4f46e5;">fintaint</strong>! We\'re excited to have you on board.
+                        Welcome to <strong style="color: #4f46e5;">fintain</strong>! We\'re excited to have you on board.
                     </p>
                 </div>
 
